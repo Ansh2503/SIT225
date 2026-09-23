@@ -1,0 +1,7 @@
+Start time: 2026-09-13T18:38:15.219074
+End time: 2026-09-13T19:08:21.197770
+Valid rows: 889
+Invalid rows: 0
+Serial port: /dev/cu.usbmodem11201
+Sensor: DHT11
+Sampling interval: approximately 2 seconds
