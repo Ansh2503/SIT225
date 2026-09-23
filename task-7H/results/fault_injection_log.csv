@@ -1,0 +1,13 @@
+fault,input,baseline_flagged,hardened_flagged,reason
+missing_temperature,"900000,,58.0",True,True,incomplete row
+missing_humidity,"900001,22.0,",True,True,incomplete row
+non_numeric_elapsed,"bad,22.0,58.0",True,True,non-numeric row
+non_numeric_temperature,"900003,error,58.0",True,True,non-numeric row
+non_finite_temperature,"900004,nan,58.0",True,True,non-finite value
+temperature_high,"900005,80.0,58.0",False,True,temperature_out_of_range
+temperature_low,"900006,-20.0,58.0",False,True,temperature_out_of_range
+humidity_high,"900007,22.0,150.0",False,True,humidity_out_of_range
+humidity_low,"900008,22.0,5.0",False,True,humidity_out_of_range
+extra_field,"900009,22.0,58.0,extra",True,True,incomplete row
+empty_row,,True,True,incomplete row
+short_row,"900011,22.0",True,True,incomplete row
